@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Cadastrar Medicamento</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cadMedicamento.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+
+        <nav class="mp">
+            <img id="logo" src="image/logo.png" alt="logo"></li>
+            <ul>
+                <li><a href="#">Clinicas</a>
+                    <ul>
+                        <li><a href="">Listar</a></li>
+                        <li><a href="">Cadastrar</a></li>
+                        <li><a href="">Alterar</a></li>
+                        <li><a href="">Excluir</a></li>
+                    </ul>
+                    <li><a href="#">Medicamentos</a>
+                        <ul>
+                            <li><a href="">Listar</a></li>
+                            <li><a href="">Cadastrar</a></li>
+                            <li><a href="">Alterar</a></li>
+                            <li><a href="">Excluir</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Pedidos</a>
+                    </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="session">
+            <div class="formulario">
+                <form action="" method="POST">
+                    <fieldset>
+                        <legend>Medicamento</legend>
+                        <div>
+                            <p>
+                                <label for="">Nome</label><br>
+                                <input type="text" size="40" maxlength="255" placeholder="Nome do medicamento" required>
+                            </p>
+                            <p>
+                                <label for="">Descrição</label><br>
+                                <input type="text" size="40" maxlength="255" placeholder="Descrição analgesico/anti-inflamatorio etc..." required>
+                            </p>
+                            <p>
+                                <label for="">Valor</label><br>
+                                <input type="number" size="40" maxlength="5" max="5" m placeholder="00,00" required>
+                            </p>
+                            <p>
+                                <label for="">Dosagem</label><br>
+                                <input type="text" size="40" maxlength="10" placeholder="Dosagem ex : 100ml ou 100mg" required>
+                            </p>
+                            <p>
+                                <label for="">Quantidade Estoque</label><br>
+                                <input type="number" size="40" maxlength="1000" required>
+                            </p>
+                        </div>
+
+                    </fieldset>
+
+            </div>
+            <div class="cartao">
+                <div class="imagem">
+                    <img src="image/cadastro.jpg" alt="">
+                </div>
+                <div class="texto">
+                    <h1>Cadastrar Medicamentos</h1>
+                    <p>Função destinada para Cadastrar Medicamentos na plataforma.</p>
+                    <div class="botao">
+                        <div><input type="submit" value="Cadastrar"></div>
+                    </div>
+                    <div class="botao">
+                        <div><input type="reset" value="Limpar registro"></div>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="rodape">
+            <div>
+                &copy; Sistema de Gerenciamento Distribuidora de Medicamentos
+            </div>
+        </div>
+        <div class="roda">
+            <div>Cadastrar</div>
+            <div>Alterar</div>
+            <div>Excluir</div>
+            <div>Listar</div>
+            <div>Pedidos</div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
